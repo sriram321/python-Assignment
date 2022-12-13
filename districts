@@ -1,0 +1,10 @@
+AP=[]
+n=int(input("Enter number of districts:"))
+for i in range (n):
+    d=input("Enter district name:")
+    AP.append(d)
+print(AP)    
+for i in AP:
+    print(i)
+
+    
