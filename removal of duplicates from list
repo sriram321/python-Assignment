@@ -1,0 +1,11 @@
+l=[]
+m=[]
+n=int(input("enter number of elements:"))
+for i in range(n):
+    x=int(input("Enter element:"))
+    l.append(x)
+print(l)    
+for i in l:     
+    if i not in m:
+        m.append(i)
+print(m)        
