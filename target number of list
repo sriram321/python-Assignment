@@ -1,0 +1,16 @@
+n=int(input())
+l=list(map(int,input().split()))
+tn=4
+count=0
+for i in range(n):
+    for j in range(n):
+        if l[i]-l[j]==tn:
+            count=count+1
+            break;
+if count>0:
+   print("YES")
+else:
+   print("NO")
+        
+        
+
