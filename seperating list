@@ -1,0 +1,13 @@
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+
+for i in range:
+    if l[i]<0:
+        m.append(l[i])
+        del(l[i])
+l.sort()
+print(l)
+print(m)
+print(l+m)
+        
