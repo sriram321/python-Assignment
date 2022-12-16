@@ -1,0 +1,12 @@
+n=int(input())
+l=list(map(int,input().split()))
+m=[]
+for i in l:
+    if i%2==0:
+        m.append(i)
+        l.remove(i)
+l.sort()
+m.sort()
+print(l)
+print(m)
+print(l+m)
